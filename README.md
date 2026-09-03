@@ -4,7 +4,7 @@ A simple **semantic search-based chatbot** built with **Python, Pandas, and Sent
 
 Instead of matching the user's question using exact keywords, the chatbot converts the user's query and FAQ questions into **numerical embeddings** and finds the FAQ question with the closest semantic meaning.
 
-## ✨ How It Works
+##  How It Works
 
 ```text
 User Query
@@ -20,7 +20,7 @@ Find Most Similar FAQ
 Retrieve Corresponding Answer
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -29,7 +29,7 @@ Retrieve Corresponding Answer
 - Cosine Similarity
 - Jupyter Notebook / Google Colab
 
-## 📦 Installation
+##  Installation
 
 Install the required library:
 
@@ -44,7 +44,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 ```
 
-## 🧠 Loading the Model
+## Loading the Model
 
 The project uses the pre-trained multilingual Sentence Transformer model:
 
@@ -69,7 +69,7 @@ Similarity can be calculated using:
 util.cos_sim(a, b)
 ```
 
-## 📚 FAQ Dataset
+## FAQ Dataset
 
 A sample FAQ dataset is created using a Python dictionary containing:
 
@@ -90,7 +90,7 @@ Example:
 | How to reduce stress? | Reducing stress can involve mindfulness, exercise, and adequate rest. |
 | How to improve mental health? | Mental health can be improved through therapy, exercise, and social support. |
 
-## 🔎 Semantic Search
+##  Semantic Search
 
 The user's query is converted into an embedding:
 
@@ -126,7 +126,7 @@ The corresponding answer is retrieved using:
 df["answer"][id]
 ```
 
-## 💬 Chatbot Function
+##  Chatbot Function
 
 The final chatbot continuously accepts questions until the user types `exit` or `quit`.
 
@@ -161,7 +161,7 @@ Run it with:
 chatbot()
 ```
 
-## 🧪 Example
+## example
 
 **Input:**
 
@@ -177,7 +177,7 @@ Chatbot : Mental health can be improved through therapy, exercise, and social su
 
 The chatbot does not need the user's wording to exactly match the FAQ question. It searches based on **semantic meaning**.
 
-## 🎯 Key Concepts Learned
+## Key Concepts Learned
 
 ### 1. Embeddings
 
@@ -203,7 +203,7 @@ Instead of searching for exact words, semantic search finds content with a simil
 
 `top_k=1` returns the single best matching result.
 
-## 🚀 Possible Improvements
+##  Possible Improvements
 
 This is a basic semantic FAQ chatbot. It can be extended by:
 
@@ -216,7 +216,7 @@ This is a basic semantic FAQ chatbot. It can be extended by:
 - Using a vector database for larger datasets
 - Extending the system into a **RAG (Retrieval-Augmented Generation)** application
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 semantic-chatbot/
