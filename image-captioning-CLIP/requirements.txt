@@ -1,0 +1,6 @@
+sentence-transformers
+torch
+Pillow
+matplotlib
+numpy
+jupyter
