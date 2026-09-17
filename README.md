@@ -1,81 +1,134 @@
-# AI/ML Course Projects
+# AI-ML-Learning-Projects
 
-This repository contains projects and practical implementations completed while learning **Artificial Intelligence and Machine Learning**.
+This repository contains my Artificial Intelligence and Machine Learning learning projects, practice notebooks, and experiments.
 
-The projects cover topics such as Natural Language Processing, semantic search, image-text similarity, emotion detection, and hate speech analysis.
+The projects cover Natural Language Processing, Computer Vision, Machine Learning, Deep Learning, and Data Analysis.
 
 ## Projects
 
 ### 1. Semantic Chatbot
 
-A chatbot project based on semantic search and natural language processing.
+A chatbot project based on semantic understanding. It focuses on understanding the meaning of user queries and finding relevant responses.
 
-**Topics:**
+**Topics covered:**
+- Natural Language Processing
+- Sentence Embeddings
+- Semantic Similarity
+- Chatbot Development
 
-* Semantic search
-* Natural Language Processing
-* Text embeddings
-* Chatbot development
+[Open Semantic Chatbot Project](./semantic-chatbot/)
+
+---
 
 ### 2. Keyword Extraction and Translation
 
-A project that extracts important keywords from text and translates text into another language.
+This project extracts important keywords from text and translates text into another language.
 
-**Topics:**
+**Topics covered:**
+- Natural Language Processing
+- Keyword Extraction
+- Sentence Transformers
+- Text Translation
 
-* Keyword extraction
-* Text embeddings
-* Natural Language Processing
-* Text translation
+[Open Keyword Extraction and Translation Project](./keyword-extraction-translation/)
 
-### 3. Image Captioning / Image-Text Similarity
+---
 
-A project exploring the relationship between images and text using CLIP-based image-text similarity.
+### 3. Image Captioning using CLIP
 
-**Topics:**
+This project explores image and text understanding using CLIP-based models.
 
-* Computer Vision
-* Image-text similarity
-* CLIP
-* Deep learning
+**Topics covered:**
+- Computer Vision
+- Image and Text Embeddings
+- CLIP
+- Image Captioning Concepts
 
-### 4. Emotion Detection and Hate Speech Analysis
+[Open Image Captioning CLIP Project](./image-captioning-CLIP/)
 
-A Natural Language Processing project that detects emotions in English text and analyzes hate speech.
+---
 
-**Topics:**
+### 4. Emotion Detection
 
-* NLP
-* Emotion classification
-* Hate speech detection
-* Text classification
-* PySentimiento
+This project performs emotion detection from text and explores text classification tasks such as emotion and hate speech analysis.
 
-## Technologies Used
+**Topics covered:**
+- Natural Language Processing
+- Text Classification
+- Emotion Detection
+- Hate Speech Analysis
 
-* Python
-* Jupyter Notebook
-* Natural Language Processing
-* Machine Learning
-* Deep Learning
-* Sentence Transformers
-* PyTorch
-* PySentimiento
-* CLIP
+[Open Emotion Detection Project](./emotion-detection/)
+
+---
+
+### 5. Resume Classification
+
+This project explores the classification of resumes using Machine Learning techniques.
+
+**Topics covered:**
+- Data Preprocessing
+- Exploratory Data Analysis
+- Text/Data Classification
+- Machine Learning
+
+[Open Resume Classification Project](./resume-classification/)
+
+---
+
+### 6. Mental Health Model Training
+
+This project explores student mental health data through data analysis, visualization, preprocessing, and machine learning model training.
+
+**Topics covered:**
+- Exploratory Data Analysis
+- Data Cleaning
+- Feature Engineering
+- Data Preprocessing
+- Linear Regression
+- Random Forest
+- Model Evaluation
+
+[Open Mental Health Model Training Project](./mental-health-model-training/)
+
+> Note: This project is for learning and experimentation only. It is not intended for medical diagnosis or professional mental health assessment.
+
+---
 
 ## Repository Structure
 
 ```text
-AI-ML-Course-Projects/
+AI-ML-Learning-Projects/
+│
+├── README.md
 │
 ├── semantic-chatbot/
+│   ├── README.md
+│   └── Project Notebook
+│
 ├── keyword-extraction-translation/
+│   ├── README.md
+│   ├── Keywordextraction.ipynb
+│   └── requirements.txt
+│
 ├── image-captioning-CLIP/
-└── emotion-detection/
-```
-
-## Purpose
-
-The purpose of this repository is to maintain my AI/ML learning work, practical assignments, experiments, and course projects in one place.
-
-More projects will be added as I continue learning and exploring AI/ML.
+│   ├── README.md
+│   ├── Image Captioning.ipynb
+│   └── requirements.txt
+│
+├── emotion-detection/
+│   ├── README.md
+│   ├── Emotion Detection.ipynb
+│   └── requirements.txt
+│
+├── resume-classification/
+│   ├── README.md
+│   ├── Resume Classification.ipynb
+│   ├── Resume.csv
+│   └── requirements.txt
+│
+└── mental-health-model-training/
+    ├── README.md
+    ├── Mental Health Model Training.ipynb
+    ├── Student Mental Health.csv
+    └── requirements.txt
